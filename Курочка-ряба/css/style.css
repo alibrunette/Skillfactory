@@ -1,0 +1,39 @@
+
+
+body,
+.main {
+   text-align: center;
+   background-color: #8e8484;
+}
+
+.form-control {
+   margin: 10px 0px; 
+   border:0;   /* убираем рудиментную границу */
+}
+input {
+   box-shadow:#0f0c25 5px 5px 17px 0px;
+}
+
+span {
+   font-weight: bolder;
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+
+.button {
+   margin-left: 0;
+   margin-right: 0;
+}
+
+#button-fetch {
+   box-shadow:#111082 9px 7px 15px 0px;
+}
+#result {
+   margin: 15px;
+}
+
+.result {
+   margin-top: 10px;
+   text-align: left;
+   font-weight: 500;
+}

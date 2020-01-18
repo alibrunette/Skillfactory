@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Mudul 5.15</title>
+</head>
+
+<body>
+
+  <div class="container main">
+    <h1>Сказка про Курочку Рябу</h1>
+    <p></p> 
+    
+    <form id="messages">
+      <div class="form-group">
+        <input type="text" class="form-control" name="var1" placeholder="Дед" value="" title="Дед" />
+        <input type="text" class="form-control" name="var2" placeholder="Бабка" value=""
+          title="Бабка" />
+        <input type="text" class="form-control" name="var3" placeholder="Курочка" value="" title="Курочка" />
+        <input type="text" class="form-control" name="var4" placeholder="яйцо" value=""
+          title="яйцо" />
+        <input type="text" class="form-control" name="var5" placeholder="мышка" value=""
+          title="мышка" />
+        <input type="text" class="form-control" name="var6" placeholder="хвостиком" value="" title="хвостиком" />
+        <input type="text" class="form-control" name="speach" placeholder="Не плачь, дед, не плачь, баба: снесу вам новое яичко не золотое, а простое!"
+          value="" title="Не плачь, дед, не плачь, баба..." />
+      </div>
+    </form>
+    <div class="row button">
+      <!-- создаем две кнопки для работы с текстом, вторую пока прячем -->
+      <a id="button-fetch" class="btn btn-primary first-button">Показать сказку</a> 
+      <a id="button-fetch" class="btn btn-primary secondary-button" style="display: none">Сделать замену</a>
+    </div>
+
+    <div class="row">
+      <div class="result"></div>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="js/ryaba.js"></script>
+</body>
+</html>
